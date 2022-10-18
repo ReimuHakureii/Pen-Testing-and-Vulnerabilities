@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local Chat = game:GetService("Chat")
 
 local playerFrom = Players.LocalPlayer
-local message = "C7RN"
+local message = "IntoTheFloodAgain"
 
 
 local filteredString = Chat:FilterStringForBroadcast(message, playerFrom)
@@ -16,7 +16,7 @@ end
 
     if syn and "Synapse X" then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/AntiLogger.lua",true))()
-		getgenv().ANTICHAT = true
+		getgenv().AntiLogger = true
     else
         local Players = game:GetService("Players")
 		local Player = Players.LocalPlayer or Players.PlayerAdded:wait()
@@ -33,7 +33,7 @@ end
 			return OldFunctionHook(self, Message)
 		end
 		OldFunctionHook = hookfunction(PostMessage.fire, PostMessageHook)
-        getgenv().ANTICHAT = true
+        getgenv().AntiLogger = true
 
 	end		
 
