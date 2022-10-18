@@ -1,8 +1,3 @@
-wait()
-until game:IsLoaded()
-
-
-
 local Players = game:GetService("Players")
 local Chat = game:GetService("Chat")
 
