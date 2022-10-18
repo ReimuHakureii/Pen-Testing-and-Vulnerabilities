@@ -1,4 +1,4 @@
-local Target = [[ AnthonyIsntHere ]]
+local Target = [[ tanryto5 ]]
 
 local LoopKill = false
 
