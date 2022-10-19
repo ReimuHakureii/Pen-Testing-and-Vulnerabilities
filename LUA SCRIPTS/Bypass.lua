@@ -11,11 +11,11 @@ local filteredString = Chat:FilterStringForBroadcast(message, playerFrom)
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/Bypass.lua'))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/LUA%20SCRIPTS/Bypass.lua'))()")
 end
 
     if syn and "Synapse X" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/AntiLogger.lua",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatomi-Ciqada/Pen-Testing-and-Vulnerabilities/main/LUA%20SCRIPTS/AntiLogger.lua",true))()
 		getgenv().AntiLogger = true
     else
         local Players = game:GetService("Players")
