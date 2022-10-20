@@ -359,7 +359,7 @@ if setfflag then
     setfflag("CrashpadUploadToBacktracePercentage_PlaceFilter", "")
     setfflag("DevFrameworkBacktraceReportFirstInSession", false)
     setfflag("DevFrameworkBacktraceReportUser", false)
-    setfflag("AbuseReportScreenshotPercentage", 0)
+    setfflag("AbuseReportScreenshotPercentage", "0")
     setfflag("AbuseReportScreenshot", "False")
 end
 
