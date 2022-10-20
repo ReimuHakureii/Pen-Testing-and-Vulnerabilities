@@ -320,8 +320,16 @@ OldFunctionHook = hookfunction(PostMessage.fire, function(self, Message)
 end)
 
 if setfflag then
-    setfflag("AbuseReportScreenshot", "False")
-    setfflag("AbuseReportScreenshotPercentage", "0")
+setfflag("DFStringCrashPadUploadToBacktraceToBacktraceBaseUrl", "")
+setfflag("DFIntCrashUploadToBacktracePercentage", "0")
+setfflag("CrashUploadToBacktracePercentage",0)
+setfflag("FFlagUserAgentInBacktraceReports",false)
+setfflag("CrashUploadToBacktraceWindowsPlayerToken_PlaceFilter","")
+setfflag("CrashpadUploadToBacktracePercentage_PlaceFilter","")
+setfflag("DevFrameworkBacktraceReportFirstInSession",false)
+setfflag("DevFrameworkBacktraceReportUser",false)
+setfflag("AbuseReportScreenshotPercentage", 0)
+setfflag("AbuseReportScreenshot","False")
 end
 
 ChatFixToggle = false
