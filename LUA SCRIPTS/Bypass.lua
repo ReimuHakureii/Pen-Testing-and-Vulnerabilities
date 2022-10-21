@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local Chat = game:GetService("Chat")
 
 local playerFrom = Players.LocalPlayer
-local message = "IntoTheFloodAgain"
+local message = "CW7N"
 
 local filteredString = Chat:FilterStringForBroadcast(message, playerFrom)
 
